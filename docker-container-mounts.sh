@@ -1,0 +1,1 @@
+docker container create --name mongodata --publish 27018:27017 --mount "type=bind,source=/Users/itdeveloper-kasih/Documents/Ardi/SAMPLE/Docker/belajar-docker-dasar/mongo-db,destination=/data/db" --env MONGO_INITDB_ROOT_USERNAME=ardi --env MONGO_INITDB_ROOT_PASSWORD=ardi mongo:latest
